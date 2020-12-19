@@ -1,4 +1,5 @@
-
+/* css variables */
+@import url(./partials/_variables.css);
 
 /* fonts from fonts file */
 @import url(./fonts.css);
@@ -8,13 +9,34 @@
     padding: 0 2rem 0 5rem;
 }
 .header .menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 3rem;
 }
 .header .menu .nav-item .nav-link{
-    font-family: "Lato", cursive;
+    font-family: var(--Lato);
     text-transform: capitalize;
     font-weight: 500;
     padding: 1.7rem;
     color:black;
 }
+
+.header .menu .navbar .active a{
+    background: var(--grey-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header .menu .navbar a:hover{
+    background: var(--grey-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 /* nav end */
+
+/* banner area start */
+
+
+
+/* banner area end */
