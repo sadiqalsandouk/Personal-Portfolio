@@ -4,10 +4,15 @@
 
 @font-face{
     font-family: "Lato";
-    src:'../fonts/Lato/Lato-Regular.tff';
+    src:url(/fonts/Lato/Lato-Regular.ttf)
+}
+
+@font-face{
+    font-family: "LatoLight";
+    src:url(/fonts/Lato/Lato-Light.ttf)
 }
 
 @font-face{
     font-family: "Typograph";
-    src:'../fonts/Typograph/TYPOGRAPH-PRO-Extra Bold.tff';
+    src:url(/fonts/Typograph/TYPOGRAPH-PRO-Extra-Bold.ttf)
 }

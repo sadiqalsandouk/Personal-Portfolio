@@ -36,19 +36,29 @@
 /* nav end */
 
 /* banner area start */
+.site-main .site-banner{
+    background: url(/images/bg.png)no-repeat;
+    background-position:0% 50%;
+    
+}
+
+
+
+
 .site-main .site-banner .site-title h1{
     padding-top: 25%;
     font-weight: 500%;
+    font: normal bold 30px/ 30px var(--Lato);
     
 }
 .site-main .site-banner .site-title h2{
     padding-top: 5%;
     font-weight: 500%;
-    
+    font: normal bold 30px/ 30px var(--LatoLight);
 }
 
-.title-text {
-    font: normal bold 30px/ 30px var(--Lato);
+.site-main .site-banner .site-title h3{
+    font: normal bold 30px/ 30px var(--LatoLight);
 }
 
 /* banner area end */
