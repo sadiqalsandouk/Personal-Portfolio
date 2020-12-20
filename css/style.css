@@ -39,7 +39,16 @@
 .site-main .site-banner .site-title h1{
     padding-top: 25%;
     font-weight: 500%;
+    
+}
+.site-main .site-banner .site-title h2{
+    padding-top: 5%;
+    font-weight: 500%;
+    
 }
 
+.title-text {
+    font: normal bold 30px/ 30px var(--Lato);
+}
 
 /* banner area end */
