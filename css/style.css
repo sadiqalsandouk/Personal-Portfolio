@@ -36,7 +36,10 @@
 /* nav end */
 
 /* banner area start */
-
+.site-main .site-banner .site-title h1{
+    padding-top: 25%;
+    font-weight: 500%;
+}
 
 
 /* banner area end */
