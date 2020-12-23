@@ -10,7 +10,10 @@ html, body{
     --white-color: #ffffff;
     --title-color: #000000;
     --grey-color: #7c7c7c;
+    --gradient-color: linear-gradient(90deg, #44bedc6e 0%, #4faeee7e 100%);
     --darkgrey-color: #2a2a2c;
+    --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.075);
     --Lato: 'Lato', cursive;
     --Typograph: 'Typograph', cursive;
     --LatoLight: 'LatoLight', cursive;
