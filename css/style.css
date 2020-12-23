@@ -4,6 +4,9 @@
 /* fonts from fonts file */
 @import url(./fonts.css);
 
+/*global styling*/
+@import url(./partials/_global.css);
+
 /* nav start */
 .header .menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -39,26 +42,74 @@
 .site-main .site-banner{
     background: url(/images/bg.png)no-repeat;
     background-position:0% 50%;
-    
 }
-
-
-
 
 .site-main .site-banner .site-title h1{
     padding-top: 25%;
     font-weight: 500%;
-    font: normal bold 30px/ 30px var(--Lato);
-    
 }
 .site-main .site-banner .site-title h2{
     padding-top: 5%;
     font-weight: 500%;
-    font: normal bold 30px/ 30px var(--LatoLight);
+    font: normal 30px/ 30px var(--Lato);
 }
 
 .site-main .site-banner .site-title h3{
-    font: normal bold 30px/ 30px var(--LatoLight);
+    font: normal 30px/ 30px var(--Lato);
 }
 
 /* banner area end */
+
+/*start about area*/
+
+.site-main .about-area{
+    padding: 4rem 5rem;
+    background: url(/images/bg2.png)no-repeat;
+    background-position:0% 50%;
+}
+
+.site-main .about-area h2{
+    font-size: 40px;
+}
+/*end about area*/
+
+/*start project area*/
+.project-area h1{
+    font-size: 40px;  
+}
+
+.video-1{
+    width:100%;
+}
+
+
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--Lato);
+    
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--Lato);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+
+
+
+/*end project area*/
+
