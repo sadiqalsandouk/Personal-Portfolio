@@ -63,7 +63,7 @@
 /*start about area*/
 
 .site-main .about-area{
-    padding: 4rem 5rem;
+    padding: 2rem 11rem;
     background: url(/images/bg2.png)no-repeat;
     background-position:0% 50%;
 }
@@ -80,12 +80,6 @@
 
 .video-1{
     width:100%;
-}
-
-
-
-.site-main .project-area{
-    padding: 4rem 0;
 }
 
 .site-main .project-area .button-group button{
